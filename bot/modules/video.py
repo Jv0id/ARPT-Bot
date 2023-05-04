@@ -59,7 +59,7 @@ class Download_video():
             sys.stdout.flush()
 
             ydl_opts = {
-                'format':"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best[ext=flv]/best' --merge-output-format mp4",
+                'format':"bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best[ext=flv]/best --merge-output-format mp4",
                 'quiet': True,
                 'no_warnings': True,
                 'noplaylist': True,
